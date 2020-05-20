@@ -1,0 +1,23 @@
+.index .nav {
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .nav image {
+  width: 128rpx;
+  height: 140rpx;
+}
+.index .content {
+  color: pink;
+  padding: 10rpx;
+}
+.index .content .imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.index .content .imgs image {
+  width: 33.33%;
+  height: 188rpx;
+  padding: 10rpx;
+}

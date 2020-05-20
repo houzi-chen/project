@@ -1,0 +1,30 @@
+<view class="index">
+<!-- 搜索框 -->
+  <search-input />
+  <!-- 轮播图开始 -->
+  <view class="swiper">
+    <swiper indicator-active-color="black" indicator-color="#b2b2b2" indicator-dots="true" autoplay="true" interval="3000" circular="true">
+      <swiper-item wx:for="{{swiper_list}}" wx:key="index">
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
+  <!-- 导航条开始 -->
+  <view class="nav">
+    <block wx:for="{{catItems}}" wx:key="index">
+      <image src="{{item}}"></image>
+    </block>  
+  </view>
+  <!-- 导航条结束 -->
+  <!-- 时尚服装楼层开始 -->
+  <view class="content">
+    <view class="title">时尚服装</view>
+    <view class="imgs">
+      <block wx:for="{{floorData}}" wx:key="index">
+        <image src="{{item}}"></image>
+      </block>
+    </view>
+  </view>
+<!-- 时尚服装楼层开始 -->
+</view>

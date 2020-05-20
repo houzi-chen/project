@@ -1,0 +1,79 @@
+.my {
+  background: #f9f9f9;
+}
+.my .my-userinfo {
+  height: 400rpx;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.my .my-userinfo .bg {
+  height: 400rpx;
+}
+.my .my-userinfo .bg image {
+  height: 100%;
+  width: 100%;
+  filter: blur(20rpx);
+}
+.my .my-userinfo .imageAndName {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.my .my-userinfo .imageAndName image {
+  width: 172rpx;
+  height: 172rpx;
+  border-radius: 50%;
+}
+.my .my-userinfo button {
+  position: absolute;
+  border: 1px solid red;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.my .order {
+  height: 150rpx;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.my .order .order-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my .order .order-item .iconfont {
+  font-size: 50rpx;
+}
+.my .order .order-item .text {
+  font-size: 30rpx;
+}
+.my .system {
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  padding: 30rpx;
+}
+.my .system .system-item {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  padding: 10rpx;
+  color: #434343;
+}
+.my .system .system-item .left {
+  display: flex;
+  align-items: center;
+}
+.my .system .system-item .left .iconfont {
+  font-size: 50rpx;
+  margin-right: 10rpx;
+}
